@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Karan Singh | Data Science Portfolio</title>
+<style>
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #0d0d0d;
+    color: #e6e6e6;
+  }
+  header {
+    text-align: center;
+    padding: 60px 20px;
+    background: #111;
+    border-bottom: 1px solid #333;
+  }
+  header h1 {
+    font-size: 2.8rem;
+    margin-bottom: 10px;
+  }
+  header p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+  section {
+    max-width: 900px;
+    margin: 60px auto;
+    padding: 0 20px;
+  }
+  h2 {
+    border-left: 6px solid #6c5ce7;
+    padding-left: 12px;
+    margin-bottom: 25px;
+  }
+  .skills, .learn {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+  .tag {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 8px 14px;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    transition: 0.3s ease;
+  }
+  .tag:hover {
+    border-color: #6c5ce7;
+    transform: translateY(-2px);
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+  }
+  .card {
+    background: #1a1a1a;
+    border: 1px solid #333;
+    padding: 20px;
+    border-radius: 10px;
+    transition: transform 0.3s ease, border-color 0.3s ease;
+  }
+  .card:hover {
+    border-color: #6c5ce7;
+    transform: translateY(-4px);
+  }
+  footer {
+    text-align: center;
+    padding: 40px;
+    margin-top: 60px;
+    background: #111;
+    border-top: 1px solid #333;
+  }
+  a {
+    color: #6c5ce7;
+    text-decoration: none;
+  }
+</style>
+</head>
+<body>
+<header>
+  <nav style="display:flex; justify-content:center; gap:30px; margin-bottom:25px; font-size:1rem;">
+    <a href="#about" style="color:#e6e6e6; text-decoration:none; transition:0.3s;">About</a>
+    <a href="#skills" style="color:#e6e6e6; text-decoration:none; transition:0.3s;">Skills</a>
+    <a href="#experience" style="color:#e6e6e6; text-decoration:none; transition:0.3s;">Experience</a>
+    <a href="#projects" style="color:#e6e6e6; text-decoration:none; transition:0.3s;">Projects</a>
+    <a href="#contact" style="color:#e6e6e6; text-decoration:none; transition:0.3s;">Contact</a>
+  </nav>
+  <div style="display:flex; flex-direction:column; align-items:center; gap:15px;">
+    <img src="profile-1.jpg" alt="Profile" style="width:120px; height:120px; border-radius:50%; border:2px solid #6c5ce7; object-fit:cover;" />
+
+    <!-- <img src="/Users/karansingh/Desktop/DataScienceProject/167029979.png" alt="Profile" style="width:120px; height:120px; border-radius:50%; border:2px solid #6c5ce7; object-fit:cover;" /> -->
+    <h1>Karan Singh</h1>
+    <p>Aspiring Data Scientist • Turning Data Into Decisions 📊</p>
+  </div>
+</header>
+
+<section id="about" >
+  <h2>About Me</h2>
+  <p>I am a Data Science student passionate about analyzing and interpreting data to uncover insights and support data-driven decisions. Currently building strong foundations in Python and analytical workflows.</p>
+</section>
+
+<section id="skills">
+  <h2>Skills</h2>
+  <div class="skills">
+    <div class="tag">Python</div>
+    <div class="tag">NumPy</div>
+    <div class="tag">Pandas</div>
+    <div class="tag">Data Cleaning</div>
+    <div class="tag">Exploratory Data Analysis (EDA)</div>
+    <div class="tag">Jupyter Notebook</div>
+    <div class="tag">Problem Solving</div>
+    <div class="tag">Git</div>
+    <div class="tag">GitHub</div>
+  </div>
+
+  <h2 style="margin-top:40px;">Currently Learning</h2>
+  <div class="learn">
+    <div class="tag">Matplotlib</div>
+    <div class="tag">Seaborn</div>
+    <div class="tag">Machine Learning</div>
+  </div>
+</section>
+
+<section id="experience">
+  <h2>Experience</h2>
+  <div class="card" style="max-width:600px; margin-bottom:35px;">
+    <h3>IBM PBEL Virtual Internship (AI)</h3>
+    <p><strong>Role:</strong> Virtual AI & Data Intern</p>
+    <ul style="margin-left:18px; line-height:1.6;">
+      <li>Completed PBEL Equivalent Virtual Internship in Artificial Intelligence under IBM Skills Network.</li>
+      <li>Worked with Python, Pandas, and Jupyter Notebook for data analysis workflows.</li>
+      <li>Performed data cleaning, preprocessing, and exploratory data analysis to derive insights.</li>
+      <li>Developed structured reports and presented findings clearly.</li>
+    </ul>
+    <a href="https://www.linkedin.com/feed/update/urn:li:activity:7358334059111956480/" target="_blank">View Certificate Post →</a>
+  </div>
+</section>
+
+<section id="projects">
+  <h2>Projects</h2>
+  <div class="projects">
+    <div class="card">
+      <h3>Cats vs Dogs CNN</h3>
+      <p>Built a Convolutional Neural Network to classify cat and dog images. Focus on model building and image preprocessing.</p>
+      <a href="https://github.com/karansingh012/cats-dogs-cnn" target="_blank">View Project →</a>
+    </div>
+
+    <div class="card">
+      <h3>Safe Data Tool</h3>
+      <p>Developed a data handling tool focused on privacy, filtering, and secure data flow.</p>
+      <a href="https://github.com/karansingh012/safe-data-tool" target="_blank">View Project →</a>
+    </div>
+
+    <div class="card">
+      <h3>Salaah Project</h3>
+      <p>A recommendation-style application aimed at providing structured guidance or suggestions.</p>
+      <a href="https://github.com/karansingh012/salaahproject" target="_blank">View Project →</a>
+    </div>
+
+    <div class="card">
+      <h3>QueryBox</h3>
+      <p>Created a simple query-based interface/tool to store and retrieve information efficiently.</p>
+      <a href="https://github.com/karansingh012/QueryBox" target="_blank">View Project →</a>
+    </div>
+  </div>
+
+    
+  </div>
+</section>
+
+<section id="learning">
+  <h2>Learning Journey</h2>
+  <div class="card" style="max-width:600px;">
+    <h3>Data Science Learning Journey</h3>
+    <p>Daily notebooks, experiments, and progress logs while building a strong DS foundation.</p>
+    <a href="https://github.com/karansingh012/DataScience" target="_blank">View Repo →</a>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contact</h2>
+  <p>
+    <a href="https://github.com/karansingh012" target="_blank">GitHub</a> |
+    <a href="https://www.linkedin.com/in/karansingh-ds/" target="_blank">LinkedIn</a> |
+    <a href="mailto:karansinghabes@gmail.com">Email</a> |
+    <a href="https://leetcode.com/u/karansingh_12/" target="_blank">LeetCode</a>
+  </p>
+</section>
+
+<footer>
+  <p>© 2025 Karan Singh</p>
+</footer>
+
+</body>
+</html>
